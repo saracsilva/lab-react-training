@@ -1,0 +1,15 @@
+.cards {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  align-items: center;
+  justify-content: flex-start;
+  text-align: left;
+  border: 1px solid #000;
+  margin: 50px;
+  padding: 5px;
+}
+.infomation {
+  display: flex;
+  flex-direction: row;
+}
