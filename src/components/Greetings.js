@@ -2,7 +2,7 @@ import React from 'react';
 
 function Greetings(lang) {
   let language = lang;
-  console.log(language);
+
   if (language.lang === 'de') {
     return <h1> Hallo {language.children}</h1>;
   }
